@@ -209,8 +209,8 @@ def expect_dtypes(**named):
 
     Usage
     -----
-    >>> from numpy import dtype, arange
-    >>> @expect_dtypes(x=dtype(int))
+    >>> from numpy import dtype, arange, int64
+    >>> @expect_dtypes(x=dtype(int64))
     ... def foo(x, y):
     ...    return x, y
     ...
